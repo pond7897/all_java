@@ -12,7 +12,8 @@ class GPA
 		Symtem.out.println("GPA is " +sum);
 		
 		
-	/*Scanner thai = new Scanner(System.in);
+	/* code ครั้งแรก
+	Scanner thai = new Scanner(System.in);
 	  System.out.print("input grade thai:" );
 	  double sub1 = thai.nextDouble();
 	  Scanner math = new Scanner(System.in);
