@@ -1,3 +1,4 @@
+//ถ้า input HelloWorld แล้ว output HELLOworld
 import javax.swing.JOptionPane;
 
 public class Java10{
