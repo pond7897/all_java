@@ -26,7 +26,7 @@ class GPA
 	  double sub4 = social.nextDouble();
 	  double sum = (sub1+sub2+sub3+sub4)/4;
 	  System.out.println("GPA = " +sum);*/
-	
+	 
 	
 	}
 }
