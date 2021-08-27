@@ -12,8 +12,6 @@ public class Java10{
 		System.exit(0);
 	}
 }
-//Titipong Keawkhum 64050407
-
 /*import java.util.Scanner;
 import java.lang.Math;
 public class Exercise3F {
@@ -38,5 +36,4 @@ public class Exercise3F {
     System.out.println("NetAmt is = "+NetAmt);
   }
 }
-//Titipong Keawkhum 64050407
 */
