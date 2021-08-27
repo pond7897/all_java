@@ -19,4 +19,3 @@ class Exercise3D2 {
     
   }
 }
-//Titipong Keawkhum 64050407
