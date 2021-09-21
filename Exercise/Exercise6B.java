@@ -28,4 +28,3 @@ class Exercise6B
 		System.out.println(" Result is : " +y);
 	}
 }
-//Thanida Sangsri 64050065
