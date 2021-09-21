@@ -29,4 +29,4 @@ class Exercise6D
 		
 	}
 }
-//Thanida Sangsri 64050065
+
