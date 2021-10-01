@@ -1,4 +1,5 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
+//Scanner
 public class Exercise5E {
   public static String email(String msg){
     Scanner kbd = new Scanner(System.in);
@@ -26,10 +27,9 @@ public class Exercise5E {
     System.out.println("webpage = "+"https://"+webDomain+"/~"+lastname);
     System.out.println("userid = "+userid);    
   }
-}*/
-//Titipong Keawkhum 64050407
+}
 
-
+//JOptionPane
 import javax.swing.JOptionPane;
 class Exercise5E
 {
@@ -61,4 +61,3 @@ class Exercise5E
 		System.exit(0);
 	}
 }
-//Titipong Keawkhum 64050407
