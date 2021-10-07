@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.lang.Math;
-class Exercise3C {
+class Exer3C {
   public static void main(String[] args) {
     double x,y,z,f;
     Scanner kbd = new Scanner(System.in);
