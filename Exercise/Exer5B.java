@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Exercise5B {
+class Exer5B {
 
     public static double getDouble(String msg){
         Scanner kbd = new Scanner(System.in);
