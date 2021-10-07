@@ -1,6 +1,6 @@
 import java.lang.Math;
 import java.util.Scanner;
-class Exercise4E {
+class Exer {
   public static void main(String[] args) {
     	double x1,y1;
 	double x2,y2; //อยากประกาศแยกเพราะว่ามันจะไม่ลายตา
