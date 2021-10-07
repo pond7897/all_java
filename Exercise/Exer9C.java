@@ -18,7 +18,7 @@ class Exer9C
 		int i=1;
 		BigInteger fbig = BigInteger.ONE;
 		BigInteger ibig;
-		for (i = 1;i<=n ;i++ );
+		for (i = 1;i<=n ;i++ )
 		{
 			ibig = BigInteger.valueOf(i);
 			fbig = fbig.multiply(ibig);
