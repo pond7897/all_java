@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Exercise3A {
+class Exer3A {
   public static void main(String[] args) {
    	double f,c1,c2,c3,c4;
     f=82;
