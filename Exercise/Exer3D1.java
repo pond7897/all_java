@@ -1,4 +1,4 @@
-class Exercise3D1 {
+class Exer3D1 {
   public static void main(String[] args) {
     double x1,y1,x2,y2;
 	x1 = 3.5; y1 = 1.0; x2 = 14.0; y2 = 6.5;
