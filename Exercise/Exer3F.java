@@ -10,7 +10,7 @@
 
 import java.util.Scanner;
 import java.lang.Math;
-public class Exercise3F {
+public class Exer3F {
   public static void main(String[] args) {
     int quantity1,quantity2;
     double amount1,amount2,price1,price2;
