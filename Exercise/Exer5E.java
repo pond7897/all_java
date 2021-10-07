@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //Scanner
-public class Exercise5E {
+public class Exer5E {
   public static String email(String msg){
     Scanner kbd = new Scanner(System.in);
     System.out.print(msg); String type = kbd.nextLine();
@@ -31,7 +31,7 @@ public class Exercise5E {
 
 //JOptionPane
 import javax.swing.JOptionPane;
-class Exercise5E
+class Exer5E
 {
 	public static String email(String name,String surname,String Domain){
 		return name+","+surname+"@"+Domain;
