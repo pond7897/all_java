@@ -1,6 +1,6 @@
 import java.lang.Math;
 import java.util.Scanner;
-class Exercise3E2 {
+class Exer3E2 {
   public static void main(String[] args) {
     double r1,r2,area;
 	Scanner kbd = new Scanner(System.in);
