@@ -1,5 +1,5 @@
 //หาค่าสุดท้ายว่าได้เท่าไหร่ แล้วถ้าคิดมือจะได้เท่าไหร่
-class Exercise3B {
+class Exer3B {
   public static void main(String[] args) {
     double x=1;
     x += 3;
