@@ -14,3 +14,12 @@ public class check_Int_of_Float {
     }
 }
 /* Tips: Run for check input format */
+/*
+input : 2
+output : Float
+
+input : 12
+output : Integer
+
+etc.
+*/
