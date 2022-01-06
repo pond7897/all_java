@@ -1,29 +1,38 @@
-package lab3;
-
+//แปลงจาก python เป็น java
+/*
+lst = [1, 2, 3, 2, 5, 3, 1, 3, 9]
+i = 0
+while i < len(lst):
+    if lst[i] % 3 == 0:
+        del lst[i]
+    else:
+        i += 1
+print(lst)
+*/
 import java.util.*;
 
 public class RemoveThirds {
-    
-
     public static void main(String[] args) {
         ArrayList<Integer> lst = new ArrayList<Integer>();
-        Scanner kbd = new Scanner(System.in);
-        System.out.print("input array : "); int number_array = kbd.nextInt();
-        for (int i = 0; i<number_array;i++){
-            System.out.print("input number "+(i+1)+" : ");
-            int number_of_array = kbd.nextInt();
-            lst.add(number_of_array);
-        }
+        //[1, 2, 3, 2, 5, 3, 1, 3, 9]
+        lst.add(1);
+        lst.add(2);
+        lst.add(3);
+        lst.add(2);
+        lst.add(5);
+        lst.add(3);
+        lst.add(1);
+        lst.add(3);
+        lst.add(9);
+        
         int i = 0;
         while (i < lst.size()) {
             if( lst.get(i) % 3 == 0){
                 lst.remove(i);
-            }else { 
+            } else { 
                 i++;
             }
         }
-            
         System.out.println(lst);
-        kbd.close();
-    }
+     }
 }
