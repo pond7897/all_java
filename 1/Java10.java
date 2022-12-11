@@ -6,9 +6,9 @@ public class Java10{
 		String type;
 		String hello , name;
 		type = JOptionPane.showInputDialog("Input");
-		hello = type.substring(0,5).toUpperCase()+type.substring(5).toLowerCase();
-		
-		name = hello;
+		first = type.substring(0,5).toUpperCase()
+		last = type.substring(5).toLowerCase();
+		name = fist+last;
 		System.out.println( "Name: " + name);
 		System.exit(0);
 	}
