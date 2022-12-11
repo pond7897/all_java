@@ -4,7 +4,7 @@ class Exer10A
 	public static void main(String[] args){
 		Scanner kbd = new Scanner(System.in);
 		System.out.print("input n : "); int n = kbd.nextInt();
-		triBox(n);
+		triBox(n); //call triBox method
 }
 	public static void triBox(int n){
 		for (int i = 1; i<=n ; i++ )
