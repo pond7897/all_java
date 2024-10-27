@@ -9,7 +9,7 @@
  print NetAmt*/
 
 import java.util.Scanner;
-import java.lang.Math;
+
 public class Exer3F {
   public static void main(String[] args) {
     int quantity1,quantity2;
@@ -17,6 +17,7 @@ public class Exer3F {
     double TotalAmt,Vat,NetAmt;
     
     Scanner kbd = new Scanner(System.in);
+    
     System.out.print("Enter quantity1 :"); quantity1 = kbd.nextInt();
     System.out.print("Enter price1 :");    price1 = kbd.nextDouble();
     System.out.print("Enter quantity2 :"); quantity2 = kbd.nextInt();
@@ -27,8 +28,10 @@ public class Exer3F {
     
     TotalAmt = (amount1)*(amount2);
     Vat = (7.0/100.0)*TotalAmt;
-    //System.out.println(Vat);
     NetAmt = TotalAmt+Vat;
+
     System.out.println("NetAmt is = "+NetAmt);
+  
+    kbd.close();
   }
 }
