@@ -8,9 +8,10 @@ public class K2_key {
             id[i] = i % 2 == 0 ? '*' : '+';
         }
 
+        int medium = (id.length / 2) - 1;
         for (int i = 0; i < id.length; i++) {
             System.out.print(id[i]);
-            if (i == 4) {
+            if (i == medium) {
                 System.out.println();
             }
         }
