@@ -1,9 +1,8 @@
-package Lab3_2;
+package lab3_2;
 import java.util.Scanner;
 public class GradeBookTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		GradeBook gradeBook1 = new GradeBook("CS101 Introduction to java Programming","Sam Smith");
 		gradeBook1.displayMessage();
 		
@@ -12,6 +11,7 @@ public class GradeBookTest {
 		for (int i = 1; i<=2 ; i++) System.out.println();
 		gradeBook1.setIntructor(change);
 		gradeBook1.displayMessage();
-	}
 
+		scan.close();
+	}
 }

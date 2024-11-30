@@ -1,15 +1,19 @@
-package Midterm;
+package midterm;
+
 import java.util.Scanner;
+
 public class CycleTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Cycle cycle = new Cycle();
+
 		Scanner input = new Scanner(System.in);
-		System.out.print("Enter radius: "); int r = input.nextInt();
+		System.out.print("Enter radius: ");
+		int r = input.nextInt();
+		
 		cycle.setRadius(r);
 		double a = cycle.getDiameter(r);
-		System.out.printf("Output of %d is %.2f",r,a);
+		
+		System.out.printf("Output of %d is %.2f", r, a);
 	}
-
 }

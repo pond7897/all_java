@@ -1,11 +1,10 @@
-package Midterm;
+package midterm;
 
 public class Cycle {
 	private double area;
 	private int radius;
 	
 	public Cycle() {
-		// TODO Auto-generated constructor stub
 		this.area = 0.0;
 		this.radius = 0;
 	}
@@ -22,5 +21,4 @@ public class Cycle {
 	public double getArea() {
 		return area;
 	}
-
 }

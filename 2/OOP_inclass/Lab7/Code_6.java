@@ -1,4 +1,4 @@
-package Lab7;
+package lab7;
 
 public class Code_6 {
 	public static int method1 (int values[][]) {

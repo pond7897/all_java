@@ -1,4 +1,4 @@
-package Lab_inclass;
+package lab_inclass;
 
 public class Dog extends Animal {
 	

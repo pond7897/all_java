@@ -1,4 +1,4 @@
-package Midterm;
+package midterm;
 
 public class Ticket {
 	private char level;
