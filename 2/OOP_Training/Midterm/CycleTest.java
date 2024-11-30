@@ -15,5 +15,7 @@ public class CycleTest {
 		double a = cycle.getDiameter(r);
 		
 		System.out.printf("Output of %d is %.2f", r, a);
+
+		input.close();
 	}
 }
