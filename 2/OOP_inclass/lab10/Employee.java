@@ -6,7 +6,6 @@ public abstract class Employee {
 	private String socialSecurityNumber;
 	
 	public Employee(String first, String last, String ssn) {
-		// TODO Auto-generated constructor stub
 		firstName = first;
 		lastName = last;
 		socialSecurityNumber = ssn;

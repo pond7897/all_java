@@ -4,6 +4,8 @@ class forloop
 	public static int getInt(String msg){
 		Scanner kbd = new Scanner(System.in);
 		System.out.print(msg); int num = kbd.nextInt();
+
+		kbd.close();
 		return num;
 	}
 	public static int loop(int i){

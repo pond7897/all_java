@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Compares_2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/*
 		 * int x = 3;
 		 * int y = 9;
@@ -20,19 +19,20 @@ public class Compares_2 {
 		 */
 
 		int[] arr = { 1, 2, 3, 4, 5 };
+
 		for (int i : arr) {
 			System.out.println(i);
 		}
 
 		ArrayList<Integer> arrList = new ArrayList<Integer>();
 		int j = 0;
+
 		while (j <= 5) {
 			arrList.add(j);
 			j++;
 
 		}
+
 		System.out.println(arrList);
-
 	}
-
 }

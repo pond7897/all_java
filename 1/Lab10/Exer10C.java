@@ -13,7 +13,8 @@ class Exer10C
 			//System.out.print("input word : ");
 			word = sc.next();
 		}
-	
+		
+		sc.close();
 	}
 	public static boolean palindrome(String wd){//wd = original st = reverse
 		String st = "";

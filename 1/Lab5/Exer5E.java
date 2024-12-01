@@ -1,46 +1,46 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Exer5E {
-	public static String email(String msg) {
-		Scanner kbd = new Scanner(System.in);
+// public class Exer5E {
+// 	public static String email(String msg) {
+// 		Scanner kbd = new Scanner(System.in);
 
-		System.out.print(msg);
-		String text = kbd.nextLine();
-		kbd.close();
+// 		System.out.print(msg);
+// 		String text = kbd.nextLine();
+// 		kbd.close();
 
-		return text;
-	}
+// 		return text;
+// 	}
 
-	public static String homepage(String msg) {
-		Scanner kbd = new Scanner(System.in);
+// 	public static String homepage(String msg) {
+// 		Scanner kbd = new Scanner(System.in);
 
-		System.out.print(msg);
-		String type = kbd.nextLine();
-		kbd.close();
+// 		System.out.print(msg);
+// 		String type = kbd.nextLine();
+// 		kbd.close();
 
-		return type;
-	}
+// 		return type;
+// 	}
 
-	public static String userID(String name, String surname) {
-		String tmp = surname + "1234567";
+// 	public static String userID(String name, String surname) {
+// 		String tmp = surname + "1234567";
 
-		return name.substring(0, 1) + tmp.substring(0, 7);
-	}
+// 		return name.substring(0, 1) + tmp.substring(0, 7);
+// 	}
 
-	public static void main(String[] args) {
-		String name = email("Enter Firstname : ");
-		String lastname = email("Enter Lastname : ");
-		String Domain = email("Enter Domain : ");
-		String webDomain = homepage("Enter webDomain : ");
-		String userid = userID(name, lastname);
+// 	public static void main(String[] args) {
+// 		String name = email("Enter Firstname : ");
+// 		String lastname = email("Enter Lastname : ");
+// 		String Domain = email("Enter Domain : ");
+// 		String webDomain = homepage("Enter webDomain : ");
+// 		String userid = userID(name, lastname);
 
-		System.out.println("address = " + name + "." + lastname + "@" + Domain);
-		System.out.println("webpage = " + "https://" + webDomain + "/~" + lastname);
-		System.out.println("userid = " + userid);
-	}
-}
+// 		System.out.println("address = " + name + "." + lastname + "@" + Domain);
+// 		System.out.println("webpage = " + "https://" + webDomain + "/~" + lastname);
+// 		System.out.println("userid = " + userid);
+// 	}
+// }
 
-//JOptionPane
+// JOptionPane
 import javax.swing.JOptionPane;
 
 class Exer5E {

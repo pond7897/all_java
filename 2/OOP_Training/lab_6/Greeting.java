@@ -10,6 +10,8 @@ public class Greeting {
 		greet(inputNumber);
 		
 		System.out.println(greetingString);
+
+		input.close();
 	}
 	
 	public void greet(int x) {
@@ -20,6 +22,4 @@ public class Greeting {
 		else
 			greetingString = "Invalid input";
 	}
-	
-
 }

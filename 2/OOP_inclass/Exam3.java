@@ -3,7 +3,6 @@ import java.util.*;
 public class Exam3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String choice;
 		Scanner scan = new Scanner(System.in);
 		

@@ -1,33 +1,25 @@
 import java.util.Scanner;
-class GPA
-{
-	public static void main(String[] args){
-	double sub1,sub2,sub3,sub4,sum;
+
+class GPA {
+	public static void main(String[] args) {
+		double gThai, gMath, gEng, gSocial, gSum;
 		Scanner subject = new Scanner(System.in);
-		System.out.print("input grade thai"); sub1 = subject.nextDouble();
-		System.out.print("input grade math"); sub2 = subject.nextDouble();
-		System.out.print("input grade english"); sub3 = subject.nextDouble();
-		System.out.print("input grade social"); sub4 = subject.nextDouble();
-	sum = (sub1+sub2+sub3+sub4)/4;
-		Symtem.out.println("GPA is " +sum);
+
+		System.out.print("input grade thai");
+		gThai = subject.nextDouble();
+
+		System.out.print("input grade math");
+		gMath = subject.nextDouble();
 		
+		System.out.print("input grade english");
+		gEng = subject.nextDouble();
 		
-	/* code ครั้งแรก
-	Scanner thai = new Scanner(System.in);
-	  System.out.print("input grade thai:" );
-	  double sub1 = thai.nextDouble();
-	  Scanner math = new Scanner(System.in);
-	  System.out.print("input grade math:" );
-	  double sub2 = math.nextDouble();
-	  Scanner eng = new Scanner(System.in);
-	  System.out.print("input grade eng:" );
-	  double sub3 = eng.nextDouble();
-	  Scanner social = new Scanner(System.in);
-	  System.out.print("input grade social:" );
-	  double sub4 = social.nextDouble();
-	  double sum = (sub1+sub2+sub3+sub4)/4;
-	  System.out.println("GPA = " +sum);*/
-	 
-	
+		System.out.print("input grade social");
+		gSocial = subject.nextDouble();
+
+		gSum = (gThai + gMath + gEng + gSocial) / 4;
+		System.out.println("GPA is " + gSum);
+
+		subject.close();
 	}
 }

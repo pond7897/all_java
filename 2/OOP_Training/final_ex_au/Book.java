@@ -7,7 +7,6 @@ public class Book {
 	private int qty = 0;
 
 	public Book(String name, Author[] authors, double price) {
-		// TODO Auto-generated constructor stub
 		this.name = name;
 		this.authors = authors;
 		this.price = price;
@@ -46,18 +45,22 @@ public class Book {
 
 	public String getAuthorNames() {
 		String Au = "";
+
 		for (Author au : authors) {
 			Au = au.getName();
 		}
+
 		return String.format("%s", Au);
 	}
 
 	@Override
 	public String toString() {
 		String AuName = "";
+
 		for (Author au : authors) {
 			AuName += au.toString() + ", ";
 		}
+
 		return String.format("Book[name= %s, author={%s}, price= %.1f, qty= %d]",
 				getName(),
 				AuName,

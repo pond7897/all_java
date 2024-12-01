@@ -17,3 +17,4 @@ class MyNote{
 		System.out.println("HUMAN AND TOURISM");
         System.out.println("THAI INTELLECTUAL PROPERTY");
    }
+}

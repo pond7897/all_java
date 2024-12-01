@@ -13,6 +13,8 @@ public class Factorial {
 		int fact = factorial(num);
 
 		System.out.printf("Factorial %d is %d%n", num, fact);
+
+		scan.close();
 	}
 
 	public static int factorial(int n) {
