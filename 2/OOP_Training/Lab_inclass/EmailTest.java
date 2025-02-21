@@ -6,10 +6,10 @@ public class EmailTest {
 
 	public static void main(String[] args) {
 		Email email = new Email();
-		
+
 		Scanner kbd = new Scanner(System.in);
 		System.out.print("Enter subject to you send : ");
-		
+
 		String txt = kbd.next();
 		System.out.print("Enter who to you send : ");
 		String user = kbd.next();
