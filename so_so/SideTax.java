@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //import Scanner
 
 public class SideTax {
     private static final Scanner scanner = new Scanner(System.in);
